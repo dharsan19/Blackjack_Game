@@ -1,79 +1,29 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header, main, footer {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2rem;
-    padding: 1rem;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .notes {
-    width: 30%;
-    float: left;
-  }
-  
-  .note-details {
-    width: 70%;
-    float: left;
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-    margin-top: 1rem;
-  }
-  
-  label {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+    background-image: url("images/table.png");
+    background-size: cover;
     font-weight: bold;
-    margin-top: 0.5rem;
-  }
-  
-  input[type="text"], textarea {
-    padding: 0.5rem;
-    margin-bottom: 1rem;
-  }
-  
-  button {
-    background-color: #333;
-    color: #fff;
-    padding: 0.5rem;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #444;
-  }
-  
-  footer {
-    background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1rem;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016f32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
